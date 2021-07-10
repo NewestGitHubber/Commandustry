@@ -2,8 +2,10 @@ localizedName: "Technical"
 description: "Standard battle vehicle for the GLA army."
 health: 90
 armor: 4
-speed: 1.7
-accel: 0.6
+speed: 2
+accel: 0.4
+flying: false
+mechSideSway: 1.8
 hitSize: 7.5
 omniMovement: false
 rotateSpeed: 2.7
