@@ -10,7 +10,7 @@ weapons: [
  {
  name: technical-weapon
  x: 0
- y: -3.5
+ y: -2.5
  mirror: false
  rotate: true
  reload: 18
