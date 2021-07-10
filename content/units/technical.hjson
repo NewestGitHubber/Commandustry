@@ -5,7 +5,7 @@ armor: 4
 speed: 2
 accel: 0.4
 type: mech
-mechSideSway: 0.6
+mechSideSway: 0.2
 hitSize: 7.5
 omniMovement: false
 rotateSpeed: 2.7
