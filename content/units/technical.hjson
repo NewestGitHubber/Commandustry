@@ -2,7 +2,7 @@ localizedName: "Technical"
 description: "i dont even know if im doing this correctly"
 health: 90
 speed: 1.7
-accel: 0.1
+accel: 0.25
 hitSize: 7.5
 rotateSpeed: 1.2
 weapons: [
@@ -12,7 +12,7 @@ weapons: [
  y: -3.5
  mirror: false
  rotate: true
- reload: 13
+ reload: 18
  shootsound: pew
  inaccuracy: 8
  collidesTeam: true
