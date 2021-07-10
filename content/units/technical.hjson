@@ -2,7 +2,7 @@ localizedName: "Technical"
 description: "i dont even know if im doing this correctly"
 health: 90
 speed: 1.7
-accel: 0.25
+accel: 0.6
 hitSize: 7.5
 omniMovement: false
 rotateSpeed: 1.2
