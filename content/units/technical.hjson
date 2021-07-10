@@ -13,7 +13,7 @@ weapons: [
  y: -2.5
  mirror: false
  rotate: true
- reload: 18
+ reload: 3
  shootsound: pew
  inaccuracy: 8
  collidesTeam: true
