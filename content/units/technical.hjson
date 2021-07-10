@@ -1,7 +1,8 @@
 localizedName: "Technical"
 description: "i dont even know if im doing this correctly"
 health: 90
-speed: 1.8
+speed: 1.7
+accel: 0.1
 hitSize: 7.5
 rotateSpeed: 1.2
 weapons: [
