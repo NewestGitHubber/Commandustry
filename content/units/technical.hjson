@@ -16,7 +16,7 @@ weapons: [
  rotate: true
  reload: 3
  shootsound: pew
- inaccuracy: 8
+ inaccuracy: 6
  collidesTeam: true
  top: true
  bullet: standardCopper
