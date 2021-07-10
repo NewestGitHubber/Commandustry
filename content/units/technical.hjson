@@ -4,7 +4,7 @@ health: 90
 armor: 4
 speed: 2
 accel: 0.4
-flying: false
+type: mech
 mechSideSway: 1.8
 hitSize: 7.5
 omniMovement: false
