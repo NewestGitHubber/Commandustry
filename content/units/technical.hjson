@@ -1,14 +1,15 @@
 localizedName: "Technical"
 description: "i dont even know if im doing this correctly"
 health: 70
-speed: 2
+speed: 1.8
 hitSize: 7.5
-rotateSpeed: 4
+rotateSpeed: 1.2
 weapons: [
  {
  name: technical-weapon
  x: 0
- y: 4.5
+ y: -4.5
+ mirror: false
  reload: 13
  shootsound: pew
  inaccuracy: 5
