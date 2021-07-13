@@ -23,11 +23,9 @@ weapons: [
  collidesTeam: true
  top: true
  bullet: {
-  damage: 16
+  damage: 30
   speed: 9
   lifetime: 25
-  collidesTeam: true
-  healPercent: 16
   frontColor: ffffff
   backColor: 98ffa9
   lightColor: 84f591
