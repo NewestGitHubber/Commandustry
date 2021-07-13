@@ -3,7 +3,7 @@ description: "Mobile missile launcher. More effective against buildings."
 health: 130
 armor: 4
 speed: 1.2
-accel: 0.05
+accel: 0.12
 type: mech
 mechSideSway: 0.2
 hitSize: 7.5
