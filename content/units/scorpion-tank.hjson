@@ -17,9 +17,10 @@ weapons: [
  x: 0
  y: -0.45
  mirror: false
+ recoil: 3
  rotate: true
  reload: 30
- shootsound: bang
+ shootSound: bang
  collidesTeam: true
  top: true
  bullet: {
