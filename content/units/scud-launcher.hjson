@@ -10,14 +10,14 @@ hitSize: 7.5
 faceTarget: false
 commandLimit: 0
 omniMovement: false
-rotateSpeed: 2.7
+rotateSpeed: 2.1
 weapons: [
  {
  name: scud-launcher-missile
  x: 0
  y: -4.34
  mirror: false
- rotate: true
+ rotate: false
  reload: 3
  shootsound: pew
  inaccuracy: 6
