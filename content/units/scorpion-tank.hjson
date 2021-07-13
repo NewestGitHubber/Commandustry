@@ -27,8 +27,8 @@ weapons: [
   speed: 9
   lifetime: 25
   frontColor: ffffff
-  backColor: 98ffa9
-  lightColor: 84f591
+  backColor: ffd37f
+  lightColor: ffffff
   width: 10
   height: 12
   }
