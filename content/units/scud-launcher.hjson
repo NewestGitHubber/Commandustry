@@ -23,6 +23,7 @@ weapons: [
  inaccuracy: 6
  collidesTeam: true
  shootStatus: unmoving
+ shootStatusDuration: 3
  top: true
  bullet: standardCopper
  }
