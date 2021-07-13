@@ -7,7 +7,6 @@ accel: 0.12
 type: mech
 mechSideSway: 0.2
 hitSize: 7.5
-faceTarget: false
 commandLimit: 0
 omniMovement: false
 rotateSpeed: 2.1
