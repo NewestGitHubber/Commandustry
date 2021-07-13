@@ -1,0 +1,38 @@
+localizedName: "Scorpion Tank"
+description: "Standard battle tank for the GLA army."
+health: 140
+armor: 6
+speed: 2
+accel: 0.2
+type: mech
+mechSideSway: 0.2
+hitSize: 7.5
+faceTarget: false
+commandLimit: 0
+omniMovement: false
+rotateSpeed: 2.7
+weapons: [
+ {
+ name: scorpion-tank-turret
+ x: 0
+ y: -4.34
+ mirror: false
+ rotate: true
+ reload: 20
+ shootsound: bang
+ collidesTeam: true
+ top: true
+ bullet: {
+  damage: 20
+  speed: 9
+  lifetime: 25
+  collidesTeam: true
+  healPercent: 16
+  frontColor: ffffff
+  backColor: 98ffa9
+  lightColor: 84f591
+  width: 10
+  height: 12
+  }
+ }
+ ]
