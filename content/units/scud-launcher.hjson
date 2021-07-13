@@ -1,0 +1,29 @@
+localizedName: "SCUD Launcher"
+description: "Mobile missile launcher. More effective against buildings."
+health: 130
+armor: 4
+speed: 1.2
+accel: 0.05
+type: mech
+mechSideSway: 0.2
+hitSize: 7.5
+faceTarget: false
+commandLimit: 0
+omniMovement: false
+rotateSpeed: 2.7
+weapons: [
+ {
+ name: scud-launcher-missile
+ x: 0
+ y: -4.34
+ mirror: false
+ rotate: true
+ reload: 3
+ shootsound: pew
+ inaccuracy: 6
+ collidesTeam: true
+ top: true
+ bullet: standardCopper
+ }
+ ]
+  
