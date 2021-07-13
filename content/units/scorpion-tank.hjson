@@ -18,12 +18,12 @@ weapons: [
  y: -3
  mirror: false
  rotate: true
- reload: 20
+ reload: 2
  shootsound: bang
  collidesTeam: true
  top: true
  bullet: {
-  damage: 20
+  damage: 16
   speed: 9
   lifetime: 25
   collidesTeam: true
