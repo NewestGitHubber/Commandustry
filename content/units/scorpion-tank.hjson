@@ -18,7 +18,7 @@ weapons: [
  y: -3
  mirror: false
  rotate: true
- reload: 2
+ reload: 30
  shootsound: bang
  collidesTeam: true
  top: true
