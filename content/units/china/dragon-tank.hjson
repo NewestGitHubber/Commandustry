@@ -20,7 +20,7 @@ weapons: [
  mirror: false
  ejectEffect: none
  rotate: true
- reload: 10
+ reload: 6
  shootSound: flame
  collidesTeam: true
  top: true
