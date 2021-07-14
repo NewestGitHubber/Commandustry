@@ -24,6 +24,7 @@ weapons: [
  shootSound: flame
  collidesTeam: true
  top: true
+ shootY: 2
  bullet: {
   hitsize: 7
   lifetime: 12
