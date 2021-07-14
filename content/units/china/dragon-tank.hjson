@@ -1,0 +1,40 @@
+localizedName: "Dragon Tank"
+description: "Arson"
+health: 140
+armor: 6
+speed: 1.3
+accel: 0.2
+type: mech
+mechSideSway: 0.2
+hitSize: 7.5
+rotateShooting: false
+commandLimit: 0
+targetAir: false
+omniMovement: false
+rotateSpeed: 2.5
+weapons: [
+ {
+ name: dragon-tank-flamethrower
+ x: 0
+ y: 0.5
+ mirror: false
+ rotate: true
+ reload: 10
+ shootSound: flame
+ collidesTeam: true
+ top: true
+ bullet: {
+  hitsize: 7
+  ammoMultiplier: 3
+  pierce: true
+  status: burning
+  hittable: false
+  shootEffect: shootSmallFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  damage: 30
+  speed: 9
+  lifetime: 25
+  }
+ }
+ ]
