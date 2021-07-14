@@ -1,0 +1,30 @@
+localizedName: "Technical"
+description: "Fast GLA vehicle. Makes up its low health for its speed and weapon."
+health: 90
+armor: 4
+speed: 3
+accel: 0.2
+type: mech
+mechSideSway: 0.2
+hitSize: 7.5
+rotateShooting: false
+commandLimit: 0
+omniMovement: false
+rotateSpeed: 2.7
+weapons: [
+ {
+ name: technical-weapon
+ x: 0
+ y: -4.34
+ mirror: false
+ rotate: true
+ reload: 3
+ shootsound: pew
+ inaccuracy: 6
+ collidesTeam: true
+ top: true
+ bullet: standardCopper
+ }
+ ]
+  
+ 
