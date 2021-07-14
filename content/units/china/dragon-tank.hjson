@@ -36,7 +36,6 @@ weapons: [
   hitEffect: hitFlameSmall
   despawnEffect: none
   damage: 30
-  speed: 9
   }
  }
  ]
