@@ -1,7 +1,7 @@
 name: "ground-vehicles"
 displayName: "Ground Vehicles"
 author: "RandomRA2"
-description: "haha ground vehicles go vroom vroom"
+description: "haha ground vehicles go vroom vroom \nContributors: SMOLKEYS"
 version: "0.2"
 minGameVersion: "105"
 hidden: "true"
