@@ -22,7 +22,6 @@ weapons: [
  rotate: true
  reload: 6
  shootSound: flame
- collidesTeam: true
  top: true
  shootY: 2
  bullet: {
