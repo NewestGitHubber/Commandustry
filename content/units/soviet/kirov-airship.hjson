@@ -6,13 +6,15 @@ speed: 0.9
 accel: 0.2
 drag: 0.2
 flying: true
-hitSize: 7.5
+hitSize: 13
 range: 140
 targetAir: false
 commandLimit: 5
 omniMovement: false
 faceTarget: false
 rotateSpeed: 3
+lowAltitude: false
+circleTarget: true
 weapons: [
  {
  shootY: 0
