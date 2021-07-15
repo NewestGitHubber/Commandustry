@@ -24,7 +24,8 @@ weapons: [
  shootsound: plasmadrop
  collidesTeam: true
  ejectEffect: none
- bullet: BombBulletType {
+ bullet: {
+  type: BombBulletType 
   damage: 50
   width: 10
   height: 14
