@@ -21,7 +21,7 @@ weapons: [
  x: 3
  ignoreRotation: true
  minShootVelocity: 0.60
- reload: 40
+ reload: 50
  shootCone: 180
  shootSound: plasmadrop
  soundPitchMin: 1
@@ -31,6 +31,7 @@ weapons: [
   type: BombBulletType
   sprite: large-bomb 
   splashDamage: 50
+  splashDamageRadius: 6.2
   width: 20
   height: 26
   hitEffect: blastExplosion
