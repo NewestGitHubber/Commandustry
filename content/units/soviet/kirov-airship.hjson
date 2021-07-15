@@ -1,0 +1,39 @@
+localizedName: "Kirov Airship"
+description: "Run."
+health: 666
+armor: 3
+speed: 0.9
+accel: 0.2
+drag: 0.2
+flying: true
+hitSize: 7.5
+range: 140
+targetAir: false
+commandLimit: 5
+omniMovement: false
+faceTarget: false
+rotateSpeed: 3
+weapons: [
+ {
+ shootY: 0
+ x: 3
+ ignoreRotation: true
+ minShootVelocity: 0.60
+ reload: 30
+ shootCone: 180
+ shootsound: plasmadrop
+ collidesTeam: true
+ ejectEffect: none
+ bullet: BombBulletType {
+  damage: 50
+  width: 10
+  height: 14
+  hitEffect: blastExplosion
+  shootEffect: none
+  smokeEffect: none
+  status: blasted
+  statusDuration: 60
+ }
+ ]
+  
+ 
