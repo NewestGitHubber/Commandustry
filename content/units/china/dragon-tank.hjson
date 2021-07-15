@@ -24,7 +24,7 @@ weapons: [
  reload: 6
  shootSound: flame
  top: true
- shootY: 2
+ shootY: 4
  bullet: {
   hitsize: 7
   lifetime: 12
