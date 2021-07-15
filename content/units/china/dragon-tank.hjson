@@ -1,5 +1,5 @@
 localizedName: "Dragon Tank"
-description: "Arson [orange]range is shorter than it really is please help"
+description: "Chinese flamethrower tank. No idea what the description should be put as so..."
 health: 140
 armor: 6
 range: 80
@@ -26,6 +26,7 @@ weapons: [
  top: true
  shootY: 4
  bullet: {
+  type: BasicBulletType
   speed: 12
   hitsize: 7
   lifetime: 12
