@@ -23,7 +23,7 @@ weapons: [
  minShootVelocity: 0.60
  reload: 30
  shootCone: 180
- shootsound: plasmadrop
+ shootSound: plasmadrop
  soundPitchMin: 1
  collidesTeam: true
  ejectEffect: none
