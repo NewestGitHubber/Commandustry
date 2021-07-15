@@ -22,14 +22,17 @@ weapons: [
  reload: 30
  shootCone: 180
  shootsound: plasmadrop
+ soundPitchMin: 1
  collidesTeam: true
  ejectEffect: none
  bullet: {
-  type: BombBulletType 
+  type: BombBulletType
+  sprite: large-bomb 
   damage: 50
   width: 10
-  height: 14
+  height: 16
   hitEffect: blastExplosion
+  hitSound: explosion
   shootEffect: none
   smokeEffect: none
   status: blasted
