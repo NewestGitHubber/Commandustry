@@ -34,6 +34,7 @@ weapons: [
   smokeEffect: none
   status: blasted
   statusDuration: 60
+  }
  }
  ]
   
