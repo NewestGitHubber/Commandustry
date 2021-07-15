@@ -30,9 +30,9 @@ weapons: [
  bullet: {
   type: BombBulletType
   sprite: large-bomb 
-  damage: 50
-  width: 10
-  height: 16
+  splashDamage: 50
+  width: 20
+  height: 26
   hitEffect: blastExplosion
   hitSound: explosion
   shootEffect: none
