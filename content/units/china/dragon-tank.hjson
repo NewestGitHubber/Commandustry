@@ -29,7 +29,7 @@ weapons: [
   type: BasicBulletType
   speed: 12
   hitsize: 7
-  lifetime: 12
+  lifetime: 6
   keepVelocity: false
   ammoMultiplier: 3
   pierce: true
