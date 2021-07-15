@@ -21,7 +21,7 @@ weapons: [
  x: 3
  ignoreRotation: true
  minShootVelocity: 0.60
- reload: 30
+ reload: 40
  shootCone: 180
  shootSound: plasmadrop
  soundPitchMin: 1
