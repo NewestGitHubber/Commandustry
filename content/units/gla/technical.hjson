@@ -1,5 +1,5 @@
 localizedName: "Technical"
-description: "Fast GLA vehicle. Makes up its low health for its speed and weapon."
+description: "Fast GLA vehicle. Makes up its low health for its speed and firerate."
 health: 90
 armor: 4
 speed: 3
