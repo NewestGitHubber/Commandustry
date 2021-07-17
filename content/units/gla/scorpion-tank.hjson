@@ -8,7 +8,7 @@ type: mech
 mechSideSway: 0.2
 hitSize: 7.5
 rotateShooting: false
-commandLimit: 0
+commandLimit: 4
 targetAir: false
 omniMovement: false
 rotateSpeed: 2.7
