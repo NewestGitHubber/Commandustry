@@ -24,7 +24,7 @@ weapons: [
  reload: 6
  shootSound: flame
  top: true
- shootY: 4
+ shootY: 5
  bullet: {
   type: BasicBulletType
   speed: 12
