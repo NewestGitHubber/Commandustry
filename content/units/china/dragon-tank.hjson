@@ -38,7 +38,7 @@ weapons: [
   shootEffect: shootSmallFlame
   hitEffect: hitFlameSmall
   despawnEffect: none
-  damage: 19
+  damage: 12
   }
  }
  ]
