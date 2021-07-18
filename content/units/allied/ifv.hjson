@@ -27,6 +27,8 @@ weapons: [
  top: true
  bullet: {
   type: MissileBulletType
+  speed: 5
+  damage: 7
   width: 6
   height: 6
   shrinkY: 0
@@ -38,7 +40,7 @@ weapons: [
   splashDamage: 5
   hitEffect: blastExplosion
   despawnEffect: blastExplosion
-  trailColor: unitBack
+  trailColor: ffa664
   backColor: 989aa4
   frontColor: b0bac0
   weaveScale: 6
