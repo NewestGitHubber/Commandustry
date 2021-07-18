@@ -20,13 +20,13 @@ weapons: [
  mirror: false
  recoil: 3
  rotate: true
- reload: 30
+ reload: 32
  shootSound: bang
  collidesTeam: true
  top: true
  bullet: {
-  damage: 30
-  speed: 9
+  damage: 40
+  speed: 6
   lifetime: 25
   frontColor: ffffff
   backColor: ffd37f
