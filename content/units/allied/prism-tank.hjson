@@ -1,11 +1,11 @@
-health: 450
-armor: 1
+health: 550
+armor: 4
 speed: 1.2
 accel: 0.2
 type: mech
-mechSideSway: 0.2
+mechSideSway: 0.01
 hitSize: 7.5
-rotateShooting: false
+rotateShooting: true
 commandLimit: 0
 omniMovement: false
 rotateSpeed: 2
@@ -13,19 +13,21 @@ weapons: [
   {
     name: prism-cannon
     top: false
-    x: 3.75
+    x: 0
     y: 0
-    reload: 120
+    mirror: false
+    reload: 130
     recoil: 2
     shootY: 4
     shootSound: laser
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 65
+      damage: 150
+      buildingDamageMultiplier: 0.75
       collidesTeam: true
-      recoil: 0.4
-      length: 150
+      recoil: 0.3
+      length: 180
       colors: [84f59140, 84f591, ffffff]
       lightColor: 84f591
     }
