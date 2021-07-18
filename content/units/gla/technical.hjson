@@ -20,10 +20,12 @@ weapons: [
  rotate: true
  reload: 3
  shootsound: pew
- inaccuracy: 6
+ inaccuracy: 9
  collidesTeam: true
  top: true
- bullet: standardCopper
+ bullet: {
+  type: StandardBulletType
+  damage: 2.5
  }
  ]
   
