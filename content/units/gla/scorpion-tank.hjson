@@ -1,5 +1,3 @@
-localizedName: "Scorpion Tank"
-description: "Standard battle tank for the GLA army."
 health: 550
 armor: 6
 speed: 1.5

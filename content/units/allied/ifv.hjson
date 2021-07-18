@@ -1,5 +1,3 @@
-localizedName: "I.F.V."
-description: "Fast Allied vehicle. Serves as a counter to air units (but i don't know how)"
 health: 500
 armor: 3
 speed: 2.6
