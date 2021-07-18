@@ -1,6 +1,6 @@
 localizedName: "Technical"
 description: "Fast GLA vehicle. Makes up its low health for its speed and firerate."
-health: 90
+health: 150
 armor: 4
 speed: 3
 accel: 0.2
