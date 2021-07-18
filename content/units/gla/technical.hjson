@@ -26,6 +26,7 @@ weapons: [
  bullet: {
   type: StandardBulletType
   damage: 2.5
+  }
  }
  ]
   
