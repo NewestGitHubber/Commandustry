@@ -33,7 +33,7 @@ weapons: [
   sprite: large-bomb 
   splashDamage: 50
   splashDamageRadius: 60
-  buildingDamageMultiplier: 2.3
+  buildingDamageMultiplier: 1.6
   width: 20
   height: 26
   hitEffect: blastExplosion
