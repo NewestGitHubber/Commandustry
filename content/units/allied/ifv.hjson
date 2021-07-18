@@ -2,7 +2,7 @@ localizedName: "I.F.V"
 description: "Fast Allied vehicle. Serves as a counter to air units (but i don't know how)"
 health: 260
 armor: 4
-speed: 2.9
+speed: 2.6
 accel: 0.2
 type: mech
 mechSideSway: 0.2
@@ -10,7 +10,7 @@ hitSize: 7.5
 rotateShooting: false
 commandLimit: 0
 omniMovement: false
-rotateSpeed: 2.7
+rotateSpeed: 2
 weapons: [
  {
  name: ifv-missiles
