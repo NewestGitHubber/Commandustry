@@ -1,7 +1,7 @@
-health: 550
+health: 650
 armor: 4
-speed: 1.2
-accel: 0.2
+speed:  0.95
+accel: 0.3
 type: mech
 mechSideSway: 0.01
 hitSize: 7.5
@@ -16,20 +16,24 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 130
+    rotate: true
+    rotateSpeed: 1.8
+    reload: 125
     recoil: 2
     shootY: 4
     shootSound: laser
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 150
+      damage: 120
       buildingDamageMultiplier: 0.75
       collidesTeam: true
       recoil: 0.3
       length: 180
       colors: [84f59140, 84f591, ffffff]
       lightColor: 84f591
+      status: blasted
+      statusDuration: 60
     }
   }
 ]

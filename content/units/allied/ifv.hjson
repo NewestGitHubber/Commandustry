@@ -44,6 +44,8 @@ weapons: [
   frontColor: b0bac0
   weaveScale: 6
   weaveMag: 1
+  status: blasted
+  statusDuration: 60
   }
  }
  ]
