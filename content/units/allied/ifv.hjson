@@ -18,8 +18,8 @@ weapons: [
  y: -2.5
  mirror: false
  rotate: true
- reload: 26
- xRand: 6
+ reload: 24
+ xRand: 4.5
  shots: 3
  shootSound: missile
  inaccuracy: 3.2
@@ -30,13 +30,14 @@ weapons: [
   type: MissileBulletType
   speed: 3
   damage: 7
-  width: 6
-  height: 6
+  width: 4
+  height: 4
   shrinkY: 0
   lifetime: 50
   drag: 0.003
   homingRange: 120
   keepVelocity: false
+  damage: 6
   splashDamageRadius: 18
   splashDamage: 5
   hitEffect: blastExplosion
