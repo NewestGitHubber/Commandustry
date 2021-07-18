@@ -1,4 +1,4 @@
-localizedName: "I.F.V"
+localizedName: "I.F.V."
 description: "Fast Allied vehicle. Serves as a counter to air units (but i don't know how)"
 health: 260
 armor: 4
@@ -27,7 +27,7 @@ weapons: [
  top: true
  bullet: {
   type: MissileBulletType
-  speed: 5
+  speed: 3
   damage: 7
   width: 6
   height: 6
