@@ -19,6 +19,7 @@ weapons: [
  mirror: false
  rotate: true
  reload: 26
+ xRand: 8
  shots: 3
  shootSound: missile
  inaccuracy: 3.2
