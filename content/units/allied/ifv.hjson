@@ -15,7 +15,7 @@ weapons: [
  {
  name: ifv-missiles
  x: 0
- y: -2.7
+ y: -2.5
  mirror: false
  rotate: true
  reload: 26
