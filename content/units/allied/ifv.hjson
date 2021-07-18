@@ -29,7 +29,7 @@ weapons: [
  bullet: {
   type: MissileBulletType
   speed: 3
-  damage: 7
+  damage: 4.5
   width: 4
   height: 4
   shrinkY: 0
@@ -37,7 +37,6 @@ weapons: [
   drag: 0.003
   homingRange: 120
   keepVelocity: false
-  damage: 6
   splashDamageRadius: 18
   splashDamage: 5
   hitEffect: blastExplosion
