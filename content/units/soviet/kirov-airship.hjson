@@ -1,5 +1,5 @@
 localizedName: "Kirov Airship"
-description: "Soviet bomber that packs more punch than a Horizon. \nIf you see them, [scarlet]Run."
+description: "Soviet bomber that packs more punch than a Horizon. Deals more damage against buildings."
 health: 666
 armor: 3
 speed: 0.9
@@ -33,7 +33,7 @@ weapons: [
   sprite: large-bomb 
   splashDamage: 50
   splashDamageRadius: 60
-  buildingDamageMultiplier: 3
+  buildingDamageMultiplier: 2.3
   width: 20
   height: 26
   hitEffect: blastExplosion
