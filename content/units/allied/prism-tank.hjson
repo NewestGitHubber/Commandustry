@@ -25,7 +25,7 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 120
+      damage: 70
       pierce: false
       buildingDamageMultiplier: 0.75
       collidesTeam: true
