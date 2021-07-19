@@ -10,7 +10,7 @@ targetAir: false
 commandLimit: 5
 omniMovement: true
 faceTarget: false
-rotateSpeed: 0.01
+rotateSpeed: 0
 weapons: [
  {
  rotate: true
