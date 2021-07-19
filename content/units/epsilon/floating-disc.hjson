@@ -33,6 +33,7 @@ weapons: [
   lightColor: f57dc5
   status: blasted
   statusDuration: 60
+  }
  }
  ]
   
