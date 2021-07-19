@@ -18,7 +18,6 @@ weapons: [
  xRand: 4.5
  yRand: 4.5
  ignoreRotation: true
- minShootVelocity: 0.60
  reload: 40
  shootCone: 180
  shootSound: laser
