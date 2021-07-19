@@ -26,12 +26,13 @@ weapons: [
     bullet: {
       type: LaserBulletType
       damage: 120
+      pierce: false
       buildingDamageMultiplier: 0.75
       collidesTeam: true
       recoil: 0.3
       length: 180
-      colors: [unitFront, unitBack, ffffff]
-      lightColor: unitBack
+      colors: [88a4ff, 6f80e8, ffffff]
+      lightColor: 6f80e8
       status: blasted
       statusDuration: 60
     }
