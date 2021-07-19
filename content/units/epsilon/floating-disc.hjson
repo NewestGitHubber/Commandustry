@@ -1,0 +1,37 @@
+health: 250
+armor: 2
+speed: 1.2
+accel: 0.2
+drag: 0.2
+flying: true
+hitSize: 4
+range: 140
+targetAir: false
+commandLimit: 5
+omniMovement: true
+faceTarget: false
+rotateSpeed: 0.01
+weapons: [
+ {
+ shootY: 0
+ ignoreRotation: true
+ minShootVelocity: 0.60
+ reload: 40
+ shootCone: 180
+ shootSound: laser
+ collidesTeam: false
+ ejectEffect: none
+ bullet: {
+  type: LaserBulletType
+  damage: 60
+  pierce: false
+  recoil: 0.3
+  length: 110
+  colors: [f3a0c6, f57dc5, ffffff]
+  lightColor: f57dc5
+  status: blasted
+  statusDuration: 60
+ }
+ ]
+  
+ 
