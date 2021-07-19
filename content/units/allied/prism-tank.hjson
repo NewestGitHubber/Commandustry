@@ -25,12 +25,12 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 70
+      damage: 120
       pierce: false
       buildingDamageMultiplier: 0.75
       collidesTeam: true
       recoil: 0.3
-      length: 180
+      length: 90
       colors: [88a4ff, 6f80e8, ffffff]
       lightColor: 6f80e8
       status: blasted
