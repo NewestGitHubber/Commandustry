@@ -7,7 +7,7 @@ flying: true
 hitSize: 4
 range: 140
 targetAir: false
-commandLimit: 5
+commandLimit: 11
 omniMovement: true
 faceTarget: false
 rotateSpeed: 0
