@@ -14,6 +14,8 @@ rotateSpeed: 0.01
 weapons: [
  {
  shootY: 0
+ xRand: 4.5
+ yRand: 4.5
  ignoreRotation: true
  minShootVelocity: 0.60
  reload: 40
