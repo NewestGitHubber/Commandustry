@@ -30,7 +30,7 @@ weapons: [
       buildingDamageMultiplier: 0.75
       collidesTeam: true
       recoil: 0.3
-      length: 90
+      length: 125
       colors: [88a4ff, 6f80e8, ffffff]
       lightColor: 6f80e8
       status: blasted
