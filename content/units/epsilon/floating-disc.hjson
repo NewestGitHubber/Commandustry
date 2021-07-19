@@ -1,6 +1,6 @@
 health: 250
 armor: 2
-speed: 1.2
+speed: 1.5
 accel: 0.2
 drag: 0.2
 flying: true
@@ -13,6 +13,7 @@ faceTarget: false
 rotateSpeed: 0.01
 weapons: [
  {
+ rotate: true
  shootY: 0
  xRand: 4.5
  yRand: 4.5
