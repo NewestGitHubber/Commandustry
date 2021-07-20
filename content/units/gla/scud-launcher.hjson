@@ -1,10 +1,10 @@
-health: 130
+health: 440
 armor: 4
-speed: 1.2
-accel: 0.12
+speed: 1.4
+accel: 0.2
 type: mech
-mechSideSway: 0.2
-hitSize: 10
+mechSideSway: 0.01
+hitSize: 18
 commandLimit: 0
 omniMovement: false
 rotateSpeed: 2.1
@@ -14,15 +14,34 @@ weapons: [
  x: 0
  y: 0
  mirror: false
- rotate: false
- reload: 3
- shootsound: pew
- inaccuracy: 6
- collidesTeam: true
- shootStatus: unmoving
- shootStatusDuration: 3
- top: true
- bullet: standardCopper
- }
+ rotate: true
+ rotateSpeed: 1.2
+ reload: 200
+ recoil: 1.5
+ shootY: 1
+ shootSound: plasmaboom
+ shake: 4.2
+ bullet: {
+  type: MissileBulletType
+  speed: 1.8
+  damage: 80
+  buildingDamageMultiplier: 1.5
+  width: 32
+  height: 65
+  shrinkY: 0
+  lifetime: 360
+  sprite: commandustry-scud-launcher-missile
+  drag: 0
+  homingRange: 90
+  keepVelocity: true
+  splashDamageRadius: 60
+  splashDamage: 280
+  hitEffect: blastExplosion
+  despawnEffect: blastExplosion
+  trailColor: ffa664
+  status: blasted
+  statusDuration: 60
+  }
+  }
  ]
   
