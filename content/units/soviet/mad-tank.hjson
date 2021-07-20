@@ -4,7 +4,7 @@ speed: 2.4
 accel: 0.2
 type: mech
 mechSideSway: 0.02
-hitSize: 7.5
+hitSize: 14
 rotateShooting: false
 commandLimit: 0
 omniMovement: false
@@ -16,8 +16,6 @@ weapons: [
   shootSound: explosion
   shootCone: 360
   ignoreRotation: true
-  shootStatus: unmoving
-  shootStatusDuration: 90
   x: 0
   y: 0
   mirror: false
@@ -31,13 +29,13 @@ weapons: [
     hittable: false
     shootEffect: {
      type: WaveEffect
-      lifetime: 90
-       sizeFrom: 60
-       sizeTo: 0
+      lifetime: 30
+       sizeFrom: 0
+       sizeTo: 100
        colorFrom: ffffff
        colorTo: e7b7b2
-       strokeFrom: 0
-       strokeTo: 8
+       strokeFrom: 8
+       strokeTo: 0
      }
     despawnEffect: {
       type: WaveEffect
@@ -51,4 +49,25 @@ weapons: [
       }
     }
   }
-]
+ {
+   x: 0
+   y: 0
+   shootCone: 360
+   ignoreRotation: true
+   reload: 60
+   mirror: false
+   shots: 18
+   spacing: 20
+   shotDelay: 0
+   shootSound: spark
+   bullet: {
+     type: LightningBulletType
+     length: 16
+     damage: 12
+     lightningLength: 6
+     lightningLengthRand: 5
+     lightningColor: e7b7b2
+     lightColor: d7877f
+     }
+   }
+ ]
