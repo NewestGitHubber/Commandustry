@@ -4,7 +4,7 @@ speed:  0.95
 accel: 0.3
 type: mech
 mechSideSway: 0.01
-hitSize: 7.5
+hitSize: 10.5
 rotateShooting: false
 commandLimit: 0
 omniMovement: false
@@ -25,9 +25,9 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 120
+      damage: 150
       pierce: false
-      buildingDamageMultiplier: 0.75
+      buildingDamageMultiplier: 0.60
       collidesTeam: true
       recoil: 0.3
       length: 125

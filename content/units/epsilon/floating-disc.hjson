@@ -1,40 +1,70 @@
-health: 250
-armor: 2
-speed: 1.5
+health: 300
+armor: 4
+speed: 1.6
 accel: 0.2
 drag: 0.2
 flying: true
-hitSize: 4
+hitSize: 12
 range: 140
 targetAir: false
+rotateShooting: false
 commandLimit: 11
 omniMovement: true
 faceTarget: false
-rotateSpeed: 0
+rotateSpeed: 5
 weapons: [
  {
  rotate: true
+ rotateSpeed: 6.5
  shootY: 0
- xRand: 4.5
- yRand: 4.5
- ignoreRotation: true
- reload: 40
- shootCone: 180
+ xRand: 3
+ yRand: 3
+ ignoreRotation: false
+ reload: 60
+ shootCone: 0
  shootSound: laser
  collidesTeam: false
  ejectEffect: none
  bullet: {
   type: LaserBulletType
-  damage: 60
+  damage: 70
   pierce: false
   recoil: 0.3
-  length: 110
+  length: 85
   colors: [f3a0c6, f57dc5, ffffff]
   lightColor: f57dc5
   status: blasted
   statusDuration: 60
   }
  }
- ]
-  
- 
+  {
+    rotate: true
+    rotateSpeed: 3.5
+    x: 0
+    y: 0
+    shootCone: 75
+    reload: 450
+    mirror: false
+    shots: 10
+    spacing: 10
+    shotDelay: 6
+    shootSound: spark
+    bullet: {
+      type: LightningBulletType
+      length: 22
+      damage: 16
+      lightningLength: 12
+      lightningLengthRand: 10
+      lightningColor: bf92f9
+      lightColor: a488eb
+    }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 25
+    reload: 300
+    range: 80
+  }
+]
