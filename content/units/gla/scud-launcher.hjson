@@ -7,7 +7,7 @@ mechSideSway: 0.01
 hitSize: 18
 commandLimit: 0
 omniMovement: false
-rotateSpeed: 2.1
+rotateSpeed: 1.7
 weapons: [
  {
  name: scud-launcher-missile
@@ -25,11 +25,11 @@ weapons: [
   type: MissileBulletType
   speed: 1.8
   damage: 80
-  buildingDamageMultiplier: 1.5
+  buildingDamageMultiplier: 1.6
   width: 32
   height: 65
   shrinkY: 0
-  lifetime: 360
+  lifetime: 300
   sprite: commandustry-scud-launcher-missile
   drag: 0
   homingRange: 90
