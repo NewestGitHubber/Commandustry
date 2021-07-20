@@ -18,13 +18,13 @@ weapons: [
  rotate: true
  reload: 3
  shootsound: pew
- inaccuracy: 9
+ inaccuracy: 7
  collidesTeam: true
  top: true
  bullet: {
   type: StandardBulletType
-  damage: 5
-  speed: 2.2
+  damage: 6
+  speed: 3.3
   }
  }
  ]
