@@ -11,29 +11,41 @@ omniMovement: false
 rotateSpeed: 3
 weapons: [
 {
-  shake: 5
+  shake: 6
   reload: 60
   shootSound: explosion
   shootCone: 360
   ignoreRotation: true
+  shootStatus: unmoving
+  shootStatusDuration: 90
   x: 0
   y: 0
   mirror: false
   bullet: {
     type: BombBulletType
     lifetime: 0
-    splashDamage: 120
-    splashDamageRadius: 30
+    splashDamage: 240
+    splashDamageRadius: 60
     buildingDamageMultiplier: 0.75
     killShooter: true
     hittable: false
+    shootEffect: {
+     type: WaveEffect
+      lifetime: 90
+       sizeFrom: 60
+       sizeTo: 0
+       colorFrom: ffffff
+       colorTo: e7b7b2
+       strokeFrom: 0
+       strokeTo: 8
+     }
     despawnEffect: {
       type: WaveEffect
       lifetime: 15
       sizeFrom: 0
       sizeTo: 80
       colorFrom: ffffff
-      colorTo: b01000
+      colorTo: d7877f
       strokeFrom: 6
       strokeTo: 0
       }
