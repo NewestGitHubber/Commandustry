@@ -4,13 +4,11 @@ speed: 1.6
 accel: 0.2
 drag: 0.2
 flying: true
-hitSize: 12
-range: 140
+hitSize: 12.5
+range: 90
 targetAir: false
-rotateShooting: false
 commandLimit: 11
 omniMovement: true
-faceTarget: false
 rotateSpeed: 5
 weapons: [
  {
@@ -19,7 +17,7 @@ weapons: [
  shootY: 0
  xRand: 3
  yRand: 3
- ignoreRotation: false
+ ignoreRotation: true
  reload: 60
  shootCone: 0
  shootSound: laser
@@ -27,8 +25,8 @@ weapons: [
  ejectEffect: none
  bullet: {
   type: LaserBulletType
-  damage: 70
-  pierce: false
+  damage: 60
+  pierce: true
   recoil: 0.3
   length: 85
   colors: [f3a0c6, f57dc5, ffffff]
@@ -38,11 +36,10 @@ weapons: [
   }
  }
   {
-    rotate: true
-    rotateSpeed: 3.5
     x: 0
     y: 0
     shootCone: 75
+    ignoreRotation: true
     reload: 450
     mirror: false
     shots: 10
@@ -63,8 +60,8 @@ weapons: [
 abilities: [
   {
     type: RepairFieldAbility
-    amount: 25
+    amount: 20
     reload: 300
-    range: 80
+    range: 90
   }
 ]
