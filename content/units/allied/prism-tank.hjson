@@ -17,7 +17,7 @@ weapons: [
     y: 1
     mirror: false
     rotate: true
-    rotateSpeed: 1.8
+    rotateSpeed: 2
     reload: 125
     recoil: 2
     shootY: 4
@@ -25,12 +25,12 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 150
-      pierce: false
+      damage: 160
+      pierce: true
       buildingDamageMultiplier: 0.60
       collidesTeam: true
       recoil: 0.3
-      length: 125
+      length: 140
       colors: [88a4ff, 6f80e8, ffffff]
       lightColor: 6f80e8
       status: blasted
