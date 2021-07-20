@@ -5,7 +5,7 @@ accel: 0.2
 drag: 0.2
 flying: true
 hitSize: 12
-range: 140
+range: 90
 targetAir: false
 rotateShooting: false
 commandLimit: 11
