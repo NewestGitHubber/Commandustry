@@ -1,0 +1,42 @@
+health: 680
+armor: 7
+speed: 2.4
+accel: 0.2
+type: mech
+mechSideSway: 0.02
+hitSize: 7.5
+rotateShooting: false
+commandLimit: 0
+omniMovement: false
+rotateSpeed: 3
+weapons: [
+{
+  shake: 5
+  reload: 60
+  shootSound: explosion
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 120
+    splashDamageRadius: 30
+    buildingDamageMultiplier: 0.75
+    killShooter: true
+    hittable: false
+    despawnEffect: {
+      type: WaveEffect
+      lifetime: 15
+      sizeFrom: 0
+      sizeTo: 80
+      colorFrom: ffffff
+      colorTo: b01000
+      strokeFrom: 6
+      strokeTo: 0
+      }
+    }
+  }
+]

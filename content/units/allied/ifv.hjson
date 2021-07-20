@@ -16,6 +16,7 @@ weapons: [
  y: -2.5
  mirror: false
  rotate: true
+ rotateSpeed: 3.2
  reload: 24
  xRand: 4.5
  shots: 3

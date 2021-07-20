@@ -32,8 +32,8 @@ weapons: [
   splashDamage: 50
   splashDamageRadius: 60
   buildingDamageMultiplier: 1.6
-  width: 20
-  height: 26
+  width: 30
+  height: 36
   hitEffect: blastExplosion
   hitSound: explosion
   shootEffect: none

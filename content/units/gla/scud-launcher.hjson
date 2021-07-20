@@ -16,7 +16,7 @@ weapons: [
  mirror: false
  rotate: true
  rotateSpeed: 1.2
- reload: 200
+ reload: 210
  recoil: 1.5
  shootY: 1
  shootSound: plasmaboom
@@ -38,6 +38,9 @@ weapons: [
   splashDamage: 150
   hitEffect: blastExplosion
   despawnEffect: blastExplosion
+  trailColor: ffa664
+  backColor: 989aa4
+  frontColor: b0bac0
   status: blasted
   statusDuration: 60
   }
