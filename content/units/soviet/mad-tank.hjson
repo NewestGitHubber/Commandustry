@@ -2,6 +2,7 @@ health: 680
 armor: 7
 speed: 2.4
 accel: 0.2
+range: 120
 type: mech
 controller: SuicideAI
 mechSideSway: 0.02

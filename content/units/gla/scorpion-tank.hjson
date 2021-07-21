@@ -26,7 +26,7 @@ weapons: [
  bullet: {
   damage: 50
   speed: 5.5
-  lifetime: 50
+  lifetime: 40
   frontColor: ffffff
   backColor: ffd37f
   lightColor: ffffff

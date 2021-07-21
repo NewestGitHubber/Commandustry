@@ -5,7 +5,7 @@ speed: 1.3
 accel: 0.2
 type: mech
 mechSideSway: 0.2
-hitSize: 7.5
+hitSize: 12
 rotateShooting: false
 commandLimit: 0
 targetAir: false
@@ -19,6 +19,7 @@ weapons: [
  mirror: false
  ejectEffect: none
  rotate: true
+ rotateSpeed: 3.4
  reload: 6
  shootSound: flame
  top: true
