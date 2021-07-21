@@ -21,15 +21,15 @@ weapons: [
     mirror: false
     recoil: 1.5
     inaccuracy: 4
-    shootY: 6
+    shootY: 7
     shootSound: flame
     ejectEffect: none
     reload: 6
     top: true
     bullet: {
-      damage: 15
+      damage: 21
       speed: 4
-      lifetime: 25
+      lifetime: 22
       width: 0.01
       height: 0.01
       collidesTeam: true
@@ -41,16 +41,18 @@ weapons: [
         particles: 25
         sizeFrom: 3
         sizeTo: 0
-        length: 120
-        lifetime: 30
-        colorFrom: 7f0000
-        colorTo: 454545
+        length: 130
+        lifetime: 35
+        colorFrom: fff89e
+        colorTo: 7f0000
         cone: 8
       }
       pierce: true
       pierceBuilding: true
       status: burning
+      statusDuration: 240
       hittable: false
+      keepVelocity: false
     }
   }
 ]
