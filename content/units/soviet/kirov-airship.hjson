@@ -10,7 +10,7 @@ targetAir: false
 commandLimit: 5
 omniMovement: false
 faceTarget: false
-rotateShooting: false
+rotateShooting: true
 rotateSpeed: 3
 lowAltitude: false
 circleTarget: true

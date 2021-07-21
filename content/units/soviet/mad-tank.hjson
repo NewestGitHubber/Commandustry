@@ -3,6 +3,7 @@ armor: 7
 speed: 2.4
 accel: 0.2
 type: mech
+controller: SuicideAI
 mechSideSway: 0.02
 hitSize: 14
 rotateShooting: false
@@ -22,8 +23,8 @@ weapons: [
   bullet: {
     type: BombBulletType
     lifetime: 0
-    splashDamage: 240
-    splashDamageRadius: 60
+    splashDamage: 260
+    splashDamageRadius: 75
     buildingDamageMultiplier: 0.75
     killShooter: true
     hittable: false
@@ -56,16 +57,17 @@ weapons: [
    ignoreRotation: true
    reload: 60
    mirror: false
-   shots: 18
-   spacing: 20
+   shots: 24
+   spacing: 15
    shotDelay: 0
    shootSound: spark
    bullet: {
      type: LightningBulletType
-     length: 16
-     damage: 12
-     lightningLength: 6
-     lightningLengthRand: 5
+     length: 18
+     damage: 15
+     buildingDamageMultiplier: 0.75
+     lightningLength: 7
+     lightningLengthRand: 6
      lightningColor: e7b7b2
      lightColor: d7877f
      }

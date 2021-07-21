@@ -1,10 +1,10 @@
-health: 550
+health: 570
 armor: 6
 speed: 1.5
 accel: 0.2
 type: mech
 mechSideSway: 0.2
-hitSize: 7.5
+hitSize: 11
 rotateShooting: false
 commandLimit: 4
 targetAir: false
@@ -18,20 +18,20 @@ weapons: [
  mirror: false
  recoil: 2.8
  rotate: true
- rotateSpeed: 3.4
+ rotateSpeed: 3.2
  reload: 32
  shootSound: bang
  collidesTeam: true
  top: true
  bullet: {
-  damage: 40
-  speed: 6
-  lifetime: 30
+  damage: 50
+  speed: 5.5
+  lifetime: 50
   frontColor: ffffff
   backColor: ffd37f
   lightColor: ffffff
-  width: 10
-  height: 12
+  width: 12
+  height: 15
   }
  }
  ]
