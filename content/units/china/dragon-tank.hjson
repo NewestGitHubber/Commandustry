@@ -29,7 +29,7 @@ weapons: [
     bullet: {
       damage: 21
       speed: 4
-      lifetime: 18
+      lifetime: 15
       width: 0.01
       height: 0.01
       collidesTeam: true
@@ -41,9 +41,8 @@ weapons: [
         particles: 25
         sizeFrom: 3
         sizeTo: 0
-        length: 130
-        lifetime: 35
-        keepVelocity: false
+        length: 120
+        lifetime: 25
         colorFrom: e67300
         colorTo: 7f0000
         cone: 8
