@@ -29,7 +29,7 @@ weapons: [
     bullet: {
       damage: 21
       speed: 4
-      lifetime: 22
+      lifetime: 18
       width: 0.01
       height: 0.01
       collidesTeam: true
@@ -43,16 +43,15 @@ weapons: [
         sizeTo: 0
         length: 130
         lifetime: 35
-        colorFrom: fff89e
+        keepVelocity: false
+        colorFrom: e67300
         colorTo: 7f0000
         cone: 8
       }
       pierce: true
-      pierceBuilding: true
       status: burning
       statusDuration: 240
       hittable: false
-      keepVelocity: false
     }
   }
 ]
