@@ -4,7 +4,7 @@ speed: 0.9
 accel: 0.2
 drag: 0.2
 flying: true
-hitSize: 13
+hitSize: 18
 range: 140
 targetAir: false
 commandLimit: 5

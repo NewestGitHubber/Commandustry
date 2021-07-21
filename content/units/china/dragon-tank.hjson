@@ -43,7 +43,7 @@ weapons: [
         sizeTo: 0
         length: 120
         lifetime: 25
-        colorFrom: e67300
+        colorFrom: ff8c1a
         colorTo: 7f0000
         cone: 8
       }
@@ -62,3 +62,4 @@ abilities: [
     reload: 450
   }
 ]
+immunities: burning
