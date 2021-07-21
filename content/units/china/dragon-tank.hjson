@@ -62,4 +62,4 @@ abilities: [
     reload: 450
   }
 ]
-immunities: burning
+immunities: [burning]
