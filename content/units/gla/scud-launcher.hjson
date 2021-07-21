@@ -2,7 +2,7 @@ health: 440
 armor: 4
 speed: 1.4
 accel: 0.2
-range: 200
+range: 700
 type: mech
 mechSideSway: 0.01
 hitSize: 18
