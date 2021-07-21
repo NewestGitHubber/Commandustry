@@ -2,6 +2,7 @@ health: 440
 armor: 4
 speed: 1.4
 accel: 0.2
+range: 625
 type: mech
 mechSideSway: 0.01
 hitSize: 20
@@ -28,7 +29,7 @@ weapons: [
   buildingDamageMultiplier: 1.6
   width: 32
   height: 65
-  shrinkY: 0
+  shrinkY: 0.2
   lifetime: 270
   sprite: commandustry-scud-launcher-missile
   drag: 0
