@@ -12,32 +12,43 @@ targetAir: false
 omniMovement: false
 rotateSpeed: 2.5
 weapons: [
- {
- name: dragon-tank-flamethrower
- x: 0
- y: 2
- mirror: false
- ejectEffect: none
- rotate: true
- rotateSpeed: 3.4
- reload: 6
- shootSound: flame
- top: true
- shootY: 5
- bullet: {
-  type: BasicBulletType
-  speed: 12
-  hitsize: 7
-  lifetime: 6
-  keepVelocity: false
-  ammoMultiplier: 3
-  pierce: true
-  status: burning
-  hittable: false
-  shootEffect: shootSmallFlame
-  hitEffect: hitFlameSmall
-  despawnEffect: none
-  damage: 12
+  {
+    name: dragon-tank-flamethrower
+    x: 0
+    y: 2
+    rotate: true
+    rotateSpeed: 3.4
+    mirror: false
+    recoil: 2
+    inaccuracy: 4
+    shootY: 5
+    shootSound: flame
+    ejectEffect: none
+    reload: 6
+    top: true
+    bullet: {
+      damage: 12
+      speed: 4
+      lifetime: 20
+      width: 0.01
+      height: 0.01
+      collidesTeam: true
+      lightColor: 7f0000
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      smokeEffect: {
+        type: ParticleEffect
+        particles: 25
+        sizeFrom: 3
+        sizeTo: 0
+        length: 100
+        lifetime: 25
+        colorFrom: fe9999
+        colorTo: 454545
+        cone: 8
+      }
+      pierce: true
+      pierceBuilding: true
+    }
   }
- }
- ]
+]
