@@ -1,4 +1,4 @@
-health: 150
+health: 180
 armor: 4
 speed: 3
 accel: 0.2
@@ -18,14 +18,17 @@ weapons: [
  rotate: true
  rotateSpeed: 3.6
  reload: 3
+ shootY: 1
  shootsound: pew
- inaccuracy: 7
+ inaccuracy: 6
  collidesTeam: true
  top: true
  bullet: {
   type: StandardBulletType
-  damage: 6
+  damage: 7
   speed: 3.3
+  width: 3
+  height: 5
   }
  }
  ]

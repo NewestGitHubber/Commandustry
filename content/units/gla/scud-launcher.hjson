@@ -38,7 +38,16 @@ weapons: [
   splashDamageRadius: 50
   splashDamage: 150
   hitEffect: blastExplosion
-  despawnEffect: blastExplosion
+  despawnEffect: {
+   type: WaveEffect
+   lifetime: 20
+   sizeFrom: 0
+   sizeTo: 50
+   colorFrom: ffffff
+   colorTo: d7877f
+   strokeFrom: 4
+   strokeTo: 0
+  }
   trailColor: ffa664
   backColor: 989aa4
   frontColor: b0bac0
