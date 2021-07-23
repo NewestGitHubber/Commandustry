@@ -1,5 +1,5 @@
-health: 180
-armor: 4
+health: 200
+armor: 5
 speed: 3
 accel: 0.2
 type: mech
@@ -18,7 +18,7 @@ weapons: [
  rotate: true
  rotateSpeed: 3.6
  reload: 3
- shootY: 1
+ shootY: 3
  shootsound: pew
  inaccuracy: 6
  collidesTeam: true
@@ -27,8 +27,8 @@ weapons: [
   type: StandardBulletType
   damage: 7
   speed: 3.3
-  width: 3
-  height: 5
+  width: 5
+  height: 7
   }
  }
  ]
