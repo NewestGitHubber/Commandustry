@@ -4,4 +4,4 @@ author: "RandomRA2"
 description: "basically features almost all vehicles from both Generals and Red Alert 2 \nContributors: SMOLKEYS, JrTRinny"
 version: "0.5"
 minGameVersion: "105"
-hidden: "true"
+hidden: false
