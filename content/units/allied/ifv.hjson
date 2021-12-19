@@ -28,16 +28,16 @@ weapons: [
  bullet: {
   type: MissileBulletType
   speed: 3
-  damage: 9
+  damage: 50
   width: 4
   height: 4
   shrinkY: 0
   lifetime: 50
-  drag: 0.003
+  drag: 0.01
   homingRange: 120
   keepVelocity: false
   splashDamageRadius: 18
-  splashDamage: 6
+  splashDamage: 45
   hitEffect: blastExplosion
   despawnEffect: blastExplosion
   trailColor: ffa664

@@ -25,7 +25,7 @@ weapons: [
  bullet: {
   type: MissileBulletType
   speed: 1.8
-  damage: 80
+  damage: 780
   buildingDamageMultiplier: 1.6
   width: 32
   height: 65
@@ -35,8 +35,8 @@ weapons: [
   drag: 0
   homingRange: 90
   keepVelocity: true
-  splashDamageRadius: 50
-  splashDamage: 150
+  splashDamageRadius: 80
+  splashDamage: 750
   hitEffect: blastExplosion
   despawnEffect: {
    type: WaveEffect
