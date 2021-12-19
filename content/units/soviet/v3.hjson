@@ -28,8 +28,8 @@ weapons: [
   speed: 1.8
   damage: 80
   buildingDamageMultiplier: 1.6
-  width: 32
-  height: 65
+  width: 10
+  height: 10
   shrinkY: 0.2
   lifetime: 270
   sprite: commandustry-v3-missile
