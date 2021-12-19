@@ -1,15 +1,13 @@
-localizedName: "V3 Rocket Launcher"
-description: "Small boi small boi small boi [scarlet]W.I.P Unit."
 health: 130
 armor: 4
-speed: 1.2
+speed: 1.8
 accel: 0.12
 type: mech
 mechSideSway: 0.2
-hitSize: 10
-commandLimit: 0
+hitSize: 6
+commandLimit: 4
 omniMovement: true
-rotateSpeed: 2.1
+rotateSpeed: 9
 weapons: [
  {
  name: v3-missile
@@ -30,7 +28,7 @@ weapons: [
   buildingDamageMultiplier: 1.6
   width: 20
   height: 20
-  shrinkY: 0.2
+  shrinkY: 0.4
   lifetime: 270
   sprite: commandustry-v3-missile
   drag: 0
