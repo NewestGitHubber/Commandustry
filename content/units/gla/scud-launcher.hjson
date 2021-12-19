@@ -7,7 +7,7 @@ type: mech
 mechSideSway: 0.01
 hitSize: 20
 commandLimit: 0
-omniMovement: false
+omniMovement: true
 rotateSpeed: 1.7
 weapons: [
  {

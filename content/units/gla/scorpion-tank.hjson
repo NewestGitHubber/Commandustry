@@ -8,7 +8,7 @@ hitSize: 11
 rotateShooting: false
 commandLimit: 4
 targetAir: false
-omniMovement: false
+omniMovement: true
 rotateSpeed: 2.7
 weapons: [
  {

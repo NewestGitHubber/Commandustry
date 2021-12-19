@@ -8,7 +8,7 @@ hitSize: 18
 range: 140
 targetAir: false
 commandLimit: 5
-omniMovement: false
+omniMovement: true
 faceTarget: false
 rotateShooting: true
 rotateSpeed: 3

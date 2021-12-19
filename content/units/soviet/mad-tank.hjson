@@ -9,7 +9,7 @@ mechSideSway: 0.02
 hitSize: 14
 rotateShooting: false
 commandLimit: 0
-omniMovement: false
+omniMovement: true
 rotateSpeed: 3
 weapons: [
 {
