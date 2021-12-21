@@ -14,6 +14,7 @@ const v3Weapon = extend(Weapon, {
         Draw.alpha(1 - mount.reload / 210);
         this.super$draw(unit, mount);
     }
+
 });
 
 const v3Missile = extend(MissileBulletType, {
@@ -47,7 +48,12 @@ const scudWeapon = extend(Weapon, {
     recoil: 0,
     shootY: 1,
     shootSound: Sounds.plasmaboom,
-    shake: 4.2
+    shake: 4.2,
+    draw(unit, mount){
+        Draw.alpha(1 - mount.reload / 210);
+        this.super$draw(unit, mount);
+    }
+
 });
 
 const scudMissile = extend(MissileBulletType, {
