@@ -1,0 +1,35 @@
+health: 200
+armor: 5
+speed: 3
+accel: 0.2
+type: mech
+mechSideSway: 0.2
+hitSize: 7.5
+rotateShooting: false
+commandLimit: 0
+omniMovement: true
+rotateSpeed: 2.7
+weapons: [
+ {
+ name: gatling-cannon
+ x: 0
+ y: -4.34
+ mirror: false
+ rotate: true
+ rotateSpeed: 3.6
+ reload: 3
+ shootY: 3
+ shootsound: pew
+ inaccuracy: 4
+ collidesTeam: true
+ top: true
+ bullet: {
+  type: StandardBulletType
+  damage: 15
+  speed: 6
+  width: 5
+  height: 7
+  }
+ }
+ ]
+  
