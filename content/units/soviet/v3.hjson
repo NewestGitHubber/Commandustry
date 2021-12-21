@@ -8,3 +8,4 @@ hitSize: 6
 commandLimit: 4
 omniMovement: true
 rotateSpeed: 9
+faceTarget: false
