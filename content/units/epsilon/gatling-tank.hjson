@@ -13,7 +13,7 @@ weapons: [
  {
  name: gatling-cannon
  x: 0
- y: -4.34
+ y: -4.24
  mirror: false
  rotate: true
  rotateSpeed: 3.6
