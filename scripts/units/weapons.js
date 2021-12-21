@@ -11,7 +11,8 @@ const v3Weapon = extend(Weapon, {
     shootSound: Sounds.plasmaboom,
     shake: 4.2,
     draw(unit, mount){
-        Draw.alpha(mount.reload / 210);
+        Draw.alpha(1 - mount.reload / 210);
+        this.super$draw(unit, mount);
     }
 });
 
