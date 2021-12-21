@@ -9,6 +9,7 @@ const v3Weapon = extend(Weapon, {
     shootY: 1,
     shootSound: Sounds.plasmaboom,
     shake: 4.2,
+    sprite: "commandustry-v3-missile",
     draw(unit, mount){
         Draw.alpha(mount.reload / 210);
     }
