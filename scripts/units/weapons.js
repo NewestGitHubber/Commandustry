@@ -10,7 +10,11 @@ const v3Weapon = extend(Weapon, {
     shootY: 1,
     shootSound: Sounds.plasmaboom,
     shake: 4.2,
-    draw(unit, mount){
+    draw(unit, mount) {
+        Draw.z(Layer.buildBeam);
+        if(mount.reload == 0) {
+            Draw.z(Layer.turret)
+        };
         Draw.alpha(1 - mount.reload / 210);
         this.super$draw(unit, mount);
     }
@@ -49,7 +53,11 @@ const scudWeapon = extend(Weapon, {
     shootY: 1,
     shootSound: Sounds.plasmaboom,
     shake: 4.2,
-    draw(unit, mount){
+    draw(unit, mount) {
+        Draw.z(Layer.buildBeam);
+        if(mount.reload == 0) {
+            Draw.z(Layer.turret);
+        };
         Draw.alpha(1 - mount.reload / 210);
         this.super$draw(unit, mount);
     }
