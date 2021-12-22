@@ -25,6 +25,7 @@ weapons: [
  top: true
  bullet: {
   damage: 50
+  recoil: -50
   speed: 5.5
   lifetime: 40
   frontColor: ffffff
