@@ -13,7 +13,7 @@ const v3Weapon = extend(Weapon, {
     draw(unit, mount) {
         Draw.z(Layer.buildBeam);
         if(mount.reload == 0) {
-            Draw.z(Layer.turret)
+            Draw.z(Layer.groundUnit + 1)
         };
         Draw.alpha(1 - mount.reload / 210);
         this.super$draw(unit, mount);
@@ -56,7 +56,7 @@ const scudWeapon = extend(Weapon, {
     draw(unit, mount) {
         Draw.z(Layer.buildBeam);
         if(mount.reload == 0) {
-            Draw.z(Layer.turret);
+            Draw.z(Layer.groundUnit + 1);
         };
         Draw.alpha(1 - mount.reload / 210);
         this.super$draw(unit, mount);
