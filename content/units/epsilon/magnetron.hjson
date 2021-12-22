@@ -27,6 +27,7 @@ weapons: [
   damage: 50
   speed: 5.5
   lifetime: 40
+  knockback: -20
   frontColor: ffffff
   backColor: ffd37f
   lightColor: ffffff
