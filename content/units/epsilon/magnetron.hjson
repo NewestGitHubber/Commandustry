@@ -14,7 +14,7 @@ weapons: [
  {
  name: magnet-beam
  x: 0
- y: -0.6
+ y: -0.9
  mirror: false
  recoil: 2.8
  rotate: true
