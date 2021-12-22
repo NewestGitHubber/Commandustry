@@ -17,7 +17,7 @@ weapons: [
  mirror: false
  rotate: true
  rotateSpeed: 3.6
- reload: 60
+ reload: 20
  shootY: 8
  shootsound: pew
  inaccuracy: 4
