@@ -20,6 +20,7 @@ weapons: [
  rotate: true
  rotateSpeed: 3.2
  reload: 32
+ shots: 15
  shootSound: spark
  collidesTeam: true
  top: true
