@@ -12,7 +12,7 @@ omniMovement: true
 rotateSpeed: 2.7
 weapons: [
  {
- name: scorpion-tank-turret
+ name: tesla-tank-weapon
  x: 0
  y: -0.45
  mirror: false
@@ -20,17 +20,17 @@ weapons: [
  rotate: true
  rotateSpeed: 3.2
  reload: 32
- shootSound: bang
+ shots: 15
+ shootSound: spark
  top: true
  bullet: {
-  damage: 50
-  speed: 5.5
-  lifetime: 40
-  frontColor: ffffff
-  backColor: ffd37f
-  lightColor: ffffff
-  width: 12
-  height: 15
+  type: LightningBulletType
+  length: 22
+  damage: 16
+  lightningLength: 12
+  lightningLengthRand: 10
+  lightningColor: bf92f9
+  lightColor: a488eb
   }
  }
  ]

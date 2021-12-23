@@ -24,7 +24,6 @@ weapons: [
  shootCone: 180
  shootSound: plasmadrop
  soundPitchMin: 1
- collidesTeam: true
  ejectEffect: none
  bullet: {
   type: BombBulletType

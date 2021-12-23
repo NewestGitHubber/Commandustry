@@ -21,7 +21,6 @@ weapons: [
  reload: 60
  shootCone: 0
  shootSound: laser
- collidesTeam: false
  ejectEffect: none
  bullet: {
   type: LaserBulletType

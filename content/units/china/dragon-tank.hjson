@@ -32,7 +32,6 @@ weapons: [
       lifetime: 15
       width: 0.01
       height: 0.01
-      collidesTeam: true
       lightColor: 7f0000
       hitEffect: hitFlameSmall
       despawnEffect: none

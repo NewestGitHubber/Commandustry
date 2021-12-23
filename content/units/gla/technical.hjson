@@ -19,12 +19,11 @@ weapons: [
  rotateSpeed: 3.6
  reload: 3
  shootY: 3
- shootsound: pew
+ shootSound: pew
  inaccuracy: 4
- collidesTeam: true
  top: true
  bullet: {
-  type: StandardBulletType
+  type: BasicBulletType
   damage: 15
   speed: 6
   width: 5

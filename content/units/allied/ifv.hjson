@@ -23,7 +23,6 @@ weapons: [
  shootSound: missile
  inaccuracy: 3.2
  velocityRnd: 0.2
- collidesTeam: true
  top: true
  bullet: {
   type: MissileBulletType
