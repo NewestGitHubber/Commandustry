@@ -1,0 +1,14 @@
+type: flying
+name: "Harvester"
+health: 125
+flying: true
+controller: MinerAI
+speed: 2.1
+range: 50
+commandLimit: 3
+mineTier: 2
+rotateSpeed: 7.5
+mineSpeed: 4
+drag: 0.05
+accel: 0.4
+itemCapacity: 25
