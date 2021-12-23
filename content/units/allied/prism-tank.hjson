@@ -28,7 +28,6 @@ weapons: [
       damage: 160
       pierce: true
       buildingDamageMultiplier: 0.60
-      collidesTeam: true
       recoil: 0.3
       length: 190
       colors: [88a4ff, 6f80e8, ffffff]

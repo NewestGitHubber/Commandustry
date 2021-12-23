@@ -22,7 +22,6 @@ weapons: [
  reload: 32
  shots: 15
  shootSound: spark
- collidesTeam: true
  top: true
  bullet: {
   type: LightningBulletType

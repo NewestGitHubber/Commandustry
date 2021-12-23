@@ -21,10 +21,9 @@ weapons: [
  shootY: 3
  shootsound: pew
  inaccuracy: 4
- collidesTeam: true
  top: true
  bullet: {
-  type: StandardBulletType
+  type: BasicBulletType
   damage: 15
   speed: 6
   width: 5
