@@ -7,3 +7,9 @@ v3.weapons.add(weapons.v3Weapon);
 const scudLauncher = extend(UnitType, "scud-launcher", {});
 scudLauncher.constructor = () => extend(MechUnit, {});
 scudLauncher.weapons.add(weapons.scudWeapon);
+
+const dongBaoA = extend(UnitType, "harvester", {});
+dongBaoA.constructor = () => extend(UnitEntity, {});
+module.exports = {
+    dongBaoA:dongBaoA
+}

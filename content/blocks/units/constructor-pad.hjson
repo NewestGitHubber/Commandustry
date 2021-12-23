@@ -1,0 +1,16 @@
+size: 2
+health: 140
+requirements:
+[
+    copper/45
+    lead/35
+]
+consumes:
+{
+    power: 1.5
+}
+hasPower: true
+name: Construction Pad
+description: "[accent]Recovered Technology."
+details: "(real)"
+category: units
