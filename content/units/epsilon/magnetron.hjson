@@ -21,7 +21,6 @@ weapons: [
  rotateSpeed: 3.2
  reload: 32
  shootSound: bang
- collidesTeam: true
  top: true
  bullet: {
   damage: 50
