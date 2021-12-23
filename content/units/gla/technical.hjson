@@ -19,7 +19,7 @@ weapons: [
  rotateSpeed: 3.6
  reload: 3
  shootY: 3
- shootsound: pew
+ shootSound: pew
  inaccuracy: 4
  top: true
  bullet: {
