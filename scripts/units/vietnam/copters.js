@@ -1,5 +1,5 @@
 //copter t3 code is long so i put it in seperated file
-const eLib = require("libs/effectLib")
+const eLib = require("libs/CDustryEffectLib")
 const dongBaoB = extend(UnitType, "copter-c", {
     draw(unit){
         this.super$draw(unit)
