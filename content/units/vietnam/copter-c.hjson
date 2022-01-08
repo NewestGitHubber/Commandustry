@@ -1,0 +1,80 @@
+//totally not yoinked from kirov technology
+health: 950
+armor: 3
+speed: 3
+name: Gale
+accel: 0.07
+engineSize: 0
+lowAltitude: false
+hitSize: 24
+range: 170
+drag: 0.07
+flying: true
+commandLimit: 5
+faceTarget: true
+rotateShooting: true
+rotateSpeed: 7
+circleTarget: false
+weapons: [
+    {
+        x: 5.25
+        y: 14
+        name: copter-c-gun
+        reload: 20
+        shootCone: 10
+        range: 180
+        layerOffset: -1
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: mine-bullet
+            splashDamage: 45
+            lifetime: 100
+            shrinkY: 0
+            keepVelocity: false
+            trailColor: f9c27a
+            splashDamageRadius: 32
+            hitEffect: flakExplosion
+            buildingDamageMultiplier: 1.3
+            trailLength: 10
+            trailWidth: 2.5
+            speed: 2.5
+            height: 8
+            width: 8
+            status: blasted
+            maxRange: 250
+        }
+    }
+    {
+        name: blank
+        y: 10
+        range: 180
+        reload: 60
+        shootCone: 10
+        bullet: {
+            maxRange: 250
+            drag: -0.02
+            speed: 2
+            trailColor: f9c27a
+            lifetime: 60
+            splashDamage: 135
+            keepVelocity: false
+            layer: 90
+            trailColor: f9c27a
+            trailLength: 10
+            width: 8
+            hitShake: 2
+            height: 23
+            sprite: commandustry-copter-c-rocket
+            splashDamageRadius: 36
+            backColor: ffffff00
+            buildingDamageMultiplier: 0.9
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: f9c27a
+                smokeColor: f9c27a
+                sparkColor: f9c27a
+                waveRad: 36
+            }
+        }
+    }
+]
