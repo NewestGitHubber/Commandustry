@@ -26,7 +26,6 @@ pad.buildType = () => extend(Router.RouterBuild, pad, {
         if(this.cons.valid() && this.constructProcess <= 1){
             this.constructProcess += this.power.status * Time.delta * this.getProgressIncrease(1200)
         }
-        print(this.constructProcess)
         if(this.constructProcess >= 1 && Units.canCreate(this.team, uLib.dongBaoA)){
             uLib.dongBaoA.spawn(this.team, this.x, this.y)
             this.constructProcess = 0
