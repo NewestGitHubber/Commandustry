@@ -7,7 +7,7 @@ const dongBaoB = extend(UnitType, "copter-c", {
             Core.atlas.find("commandustry-copter-c-blade"),
             unit.x + Angles.trnsx(unit.rotation, 6),
             unit.y + Angles.trnsy(unit.rotation, 6),
-            Time.time * 10
+            -Time.time * 10
         )
         Draw.z(Layer.flyingUnit + 0.02)
         Draw.rect(
@@ -19,7 +19,7 @@ const dongBaoB = extend(UnitType, "copter-c", {
     },
     update(unit){
         this.super$update(unit)
-        eLib.copterCRotor.at(unit.x, unit.y, Time.time * 10, unit)
+        eLib.copterCRotor.at(unit.x, unit.y, -Time.time * 10, unit)
     }
 });
 dongBaoB.constructor = () => extend(UnitEntity, {});
