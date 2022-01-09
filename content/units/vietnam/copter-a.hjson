@@ -7,7 +7,7 @@ accel: 0.1
 engineSize: 0
 lowAltitude: false
 hitSize: 7
-range: 200
+range: 150
 drag: 0.07
 flying: true
 commandLimit: 6
@@ -27,7 +27,7 @@ weapons: [
             damage: 10
             pierce: true
             pierceCap: 2
-            lifetime: 30
+            lifetime: 35
             keepVelocity: false
             trailColor: f9c27a
             trailLength: 7
@@ -35,7 +35,6 @@ weapons: [
             speed: 4
             height: 13
             width: 6
-            maxRange: 220
         }
     }
 ]
