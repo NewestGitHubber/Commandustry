@@ -15,6 +15,7 @@
   </component>
   <component name="ProjectId" id="23G9cbYbkMT1sLvcJwD77NygQwS" />
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -22,14 +23,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/units/vietnam/copter-a" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\sprites\units\vietnam\copter-a" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\content\units\vietnam" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\scripts\libs" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\sprites\units\vietnam\copter-c" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\sprites\blocks\unit\constructor-pad" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Commandustry\sprites\units\weapons\vietnam\copters" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
