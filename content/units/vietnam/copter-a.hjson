@@ -7,7 +7,7 @@ accel: 0.1
 engineSize: 0
 lowAltitude: false
 hitSize: 7
-range: 120
+range: 210
 drag: 0.07
 flying: true
 commandLimit: 6
