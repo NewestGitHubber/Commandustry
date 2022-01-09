@@ -1,0 +1,41 @@
+//totally not yoinked from kirov technology
+health: 350
+armor: 2
+speed: 3.5
+name: Wind
+accel: 0.1
+engineSize: 0
+lowAltitude: false
+hitSize: 7
+range: 200
+drag: 0.07
+flying: true
+commandLimit: 6
+faceTarget: true
+rotateShooting: true
+rotateSpeed: 7
+circleTarget: false
+weapons: [
+    {
+        x: 5.25
+        y: 4.25
+        name: copter-a-weapon
+        reload: 10
+        shootCone: 10
+        bullet: {
+            type: BasicBulletType
+            damage: 10
+            pierce: true
+            pierceCap: 2
+            lifetime: 30
+            keepVelocity: false
+            trailColor: f9c27a
+            trailLength: 7
+            trailWidth: 2
+            speed: 4
+            height: 13
+            width: 6
+            maxRange: 220
+        }
+    }
+]
