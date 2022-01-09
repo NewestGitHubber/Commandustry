@@ -4,11 +4,22 @@ const pad = extend(Router, "constructor-pad", {
         this.super$load()
         this.unitRegion = Core.atlas.find("commandustry-harvester-full")
         this.topRegion = Core.atlas.find(this.name + "-top")
+    },
+    setBars(){
+        this.super$setBars()
+        this.bars.add("reload", entity => new Bar(
+            () => "Progress",
+            () => Pal.accent,
+            () => entity.process()
+        ))
     }
 })
 pad.buildType = () => extend(Router.RouterBuild, pad, {
     constructProcess: 0,
     drawWeaveAlpha: 0,
+    process(){
+        return this.constructProcess
+    },
     update(){
         this.super$update()
         this.drawWeaveAlpha = Mathf.lerpDelta(this.drawWeaveAlpha, this.power.status, 0.05)
@@ -28,7 +39,7 @@ pad.buildType = () => extend(Router.RouterBuild, pad, {
         Draw.rect(pad.unitRegion, this.x, this.y)
         Draw.alpha(this.drawWeaveAlpha)
         Draw.z(Layer.block + 0.01)
-        Lines.lineAngleCenter(this.x + Mathf.sin(Time.time * 3, 20, pad.size * 3.95), this.y, 90, pad.size * 7)
+        Lines.lineAngleCenter(this.x + Mathf.sin(Time.time * 3, 20, pad.size * 3.90), this.y, 90, pad.size * 7)
         Draw.z(Layer.block)
         Draw.color()
         Draw.alpha(this.constructProcess)

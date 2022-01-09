@@ -22,7 +22,6 @@ weapons: [
         name: copter-c-gun
         reload: 20
         shootCone: 10
-        range: 180
         layerOffset: -1
         bullet: {
             type: ArtilleryBulletType
@@ -47,7 +46,6 @@ weapons: [
     {
         name: blank
         y: 10
-        range: 180
         reload: 60
         shootCone: 10
         bullet: {
