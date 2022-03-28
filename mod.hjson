@@ -1,7 +1,23 @@
+#the mod name as displayed in-game
+displayName: "Commandustry"
+
+#the internal name of your mod
 name: "commandustry"
-displayName: "[red]Command[orange]ustry[][]"
-author: "RandomRA2"
-description: "basically features almost all vehicles from both Generals and Red Alert 2 \nContributors: SMOLKEYS, JrTRinny \nWarning! This mod currently dosen't have any content right now"
-version: "0.75"
-minGameVersion: "105"
-hidden: false
+
+#your name
+author: "NewestGitHubber(RandomRA2), SMOLKEYS and JrTRinny"
+
+#the fully qualified main class of the mod
+main: "cnc.Commandustry"
+
+#the mod description as seen in the mod dialog
+description: "A Mindustry mod that adds in vehicles from the CnC(Command and Conquer) series."
+
+#the mod version
+version: 0.1
+
+#the minimum game build required to run this mod
+minGameVersion: 135
+
+#this is a java mod
+java: true
